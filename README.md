@@ -1,2 +1,2 @@
 # TwitchMassPings
-generates mass pings for twitch
+zyrwoot made me do this
