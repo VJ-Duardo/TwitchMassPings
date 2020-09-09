@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css">  -->
+  </head>
+  <body>
+    <h1> Create a mass ping list </h1>
+
+    <table>
+      <tr>
+        <td>Channel: </td>
+        <td><input id="channel" type="text"></td>
+      </tr>
+      <tr>
+        <td>Name amount: </td>
+        <td><input id="nameNum" type="number" value="48" step="1"></td>
+      </tr>
+      <tr>
+        <td>Chatter type: </td>
+        <td><select id="chatterType">
+				  <option value="moderators">Moderators</option>
+				  <option value="vips">VIPs</option>
+				  <option value="viewers">Viewers</option>
+			  </select></td>
+      </tr>
+    </table>
+
+    <button id="startButton"><b>Start</b></button>
+
+    <textarea id="output" placeholder="dont overuse it though"></textarea>
+
+    <script src="index.js"></script>
+  </body>
+</html>
