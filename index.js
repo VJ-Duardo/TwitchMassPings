@@ -13,7 +13,7 @@ async function start(){
 	let chatterObj;
 
 	try{
-		let response = await fetch('https://tmi.twitch.tv/group/user/'+channelInput.value+'/chatters');
+		let response = await fetch('https://cors-anywhere.herokuapp.com/https://tmi.twitch.tv/group/user/'+channelInput.value+'/chatters');
 		chatterObj = await response.json();
 	} catch(e) {
 		outputArea.value = "Something went wrong";
